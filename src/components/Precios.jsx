@@ -67,16 +67,18 @@ function Precios() {
                 <li key={i}>✔ {item}</li>
               ))}
             </ul>
-
-            <button
-              className={`w-full py-3 rounded-xl font-semibold ${
-                plan.destacado
-                  ? "bg-white text-blue-600"
-                  : "bg-blue-600 text-white"
-              }`}
-            >
-              Solicitar servicio
-            </button>
+<a
+  href={`https://wa.me/573192274572?text=Hola,%20vi%20la%20página%20de%20Soporte%20Tecnológico%20Pro%20y%20quiero%20solicitar%20el%20servicio%20de:%20${plan.titulo}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  className={`block w-full py-3 rounded-xl font-semibold text-center ${
+    plan.destacado
+      ? "bg-white text-blue-600"
+      : "bg-blue-600 text-white"
+  }`}
+>
+  Solicitar servicio
+</a>
           </div>
         ))}
 

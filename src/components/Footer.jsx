@@ -10,7 +10,9 @@ function Footer() {
       <h3>Soporte Tecnológico Pro</h3>
       <p>Servicio técnico a domicilio en Bogotá</p>
       <p>WhatsApp: 319 227 4572</p>
-      <p>@ 12/07/2026 Elber Cupitra Prada @ Todos los derechos reservados</p>
+      <p>
+  © {new Date().getFullYear()} Elber Cupitra Prada - Todos los derechos reservados.
+</p>
     </footer>
   );
 }
