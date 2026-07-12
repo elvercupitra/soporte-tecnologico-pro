@@ -1,38 +1,57 @@
 function Testimonios() {
   return (
-    <section id="opiniones" className="testimonios">
-      <h2>Opiniones de clientes ⭐</h2>
+    <section id="opiniones" className="py-12 bg-white">
 
-      <div className="cards">
+      <h2 className="text-3xl font-bold text-center mb-8">
+        Lo que dicen nuestros clientes ⭐
+      </h2>
 
-        <div className="card">
-          <p>
-            "Excelente servicio, mi computador quedó como nuevo.
-            Muy recomendado."
+      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-6">
+
+        <div className="bg-gray-100 p-6 rounded-xl shadow">
+          <p className="italic">
+            "Excelente servicio. Mi computador quedó como nuevo y el soporte fue muy profesional."
           </p>
-          <h4>⭐⭐⭐⭐⭐</h4>
-          <span>— Carlos R.</span>
+
+          <div className="mt-4 font-bold text-yellow-500">
+            ⭐⭐⭐⭐⭐
+          </div>
+
+          <p className="mt-2 font-semibold">
+            Carlos R.
+          </p>
         </div>
 
-        <div className="card">
-          <p>
-            "Muy rápido y honesto. Me explicó todo el proceso
-            y el precio justo."
+        <div className="bg-gray-100 p-6 rounded-xl shadow">
+          <p className="italic">
+            "Atención rápida, puntual y con precios justos. Lo recomiendo totalmente."
           </p>
-          <h4>⭐⭐⭐⭐⭐</h4>
-          <span>— Laura M.</span>
+
+          <div className="mt-4 font-bold text-yellow-500">
+            ⭐⭐⭐⭐⭐
+          </div>
+
+          <p className="mt-2 font-semibold">
+            Laura M.
+          </p>
         </div>
 
-        <div className="card">
-          <p>
-            "Pensé que mi PC no tenía arreglo y quedó perfecta.
-            Volveré a llamarlo."
+        <div className="bg-gray-100 p-6 rounded-xl shadow">
+          <p className="italic">
+            "Pensé que debía cambiar el computador, pero lograron repararlo perfectamente."
           </p>
-          <h4>⭐⭐⭐⭐⭐</h4>
-          <span>— Andrés P.</span>
+
+          <div className="mt-4 font-bold text-yellow-500">
+            ⭐⭐⭐⭐⭐
+          </div>
+
+          <p className="mt-2 font-semibold">
+            Andrés P.
+          </p>
         </div>
 
       </div>
+
     </section>
   );
 }

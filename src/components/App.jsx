@@ -12,49 +12,51 @@ function App() {
     <>
       <Navbar />
 
-      {/* HERO */}
-      <section id="inicio">
-        <Hero />
-      </section>
+      <Hero />
 
-      {/* SERVICIOS */}
-      <section id="servicios">
-        <Destinos />
-      </section>
+      <Destinos />
 
-      {/* PLANES */}
-      <section id="precios">
-        <Precios />
-      </section>
+      <Precios />
 
-      {/* OPINIONES */}
-      <section id="opiniones">
-        <Testimonios />
-      </section>
+      <CTA />
 
-      {/* SOBRE MI */}
-      <section id="sobre-mi" className="py-20 text-center max-w-3xl mx-auto">
-        <h2 className="text-4xl font-bold mb-6">Sobre mí 👨‍💻</h2>
-        <p className="text-lg">
-          Técnico en sistemas con experiencia en soporte técnico,
-          mantenimiento y mesa de ayuda. Servicio honesto, rápido
-          y a domicilio en Bogotá.
+      <Testimonios />
+
+      <section
+        id="sobre-mi"
+        className="py-12 max-w-5xl mx-auto px-6 text-center"
+      >
+        <h2 className="text-3xl font-bold mb-4">
+          Sobre Soporte Tecnológico Pro
+        </h2>
+
+        <p className="text-lg text-gray-700">
+          Somos especialistas en reparación, mantenimiento, optimización,
+          formateo e instalación de software para computadores de escritorio y
+          portátiles. Brindamos atención a domicilio y soporte remoto en Bogotá
+          con responsabilidad, rapidez y garantía.
         </p>
       </section>
 
-      {/* CONTACTO */}
-      <section id="contacto" className="py-20 text-center">
-        <h2 className="text-4xl font-bold mb-4">Contáctenos 📞</h2>
-        <p className="text-xl">WhatsApp: 319 227 4572</p>
+      <section
+        id="contacto"
+        className="py-10 bg-gray-100 text-center"
+      >
+        <h2 className="text-3xl font-bold mb-3">
+          Contáctanos
+        </h2>
+
+        <p className="text-lg">
+          📱 WhatsApp: <strong>319 227 4572</strong>
+        </p>
+
+        <p className="text-gray-600 mt-2">
+          Bogotá D.C. - Colombia
+        </p>
       </section>
 
-      {/* CTA FINAL */}
-      <CTA />
-
-      {/* FOOTER */}
       <Footer />
 
-      {/* BOTÓN WHATSAPP FLOTANTE */}
       <Whatsapp />
     </>
   );

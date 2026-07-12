@@ -2,58 +2,61 @@ function Destinos() {
   const servicios = [
     {
       icono: "💻",
-      titulo: "Formateo de computadores",
-      descripcion: "Instalación limpia de Windows, drivers y programas esenciales."
+      titulo: "Formateo",
+      descripcion: "Windows, drivers y programas."
     },
     {
       icono: "🛡️",
-      titulo: "Eliminación de virus",
-      descripcion: "Limpieza profunda de malware, spyware y protección del sistema."
+      titulo: "Virus",
+      descripcion: "Eliminación de virus y malware."
     },
     {
       icono: "⚡",
-      titulo: "Optimización y velocidad",
-      descripcion: "Aceleramos tu PC para que trabaje como nueva."
+      titulo: "Optimización",
+      descripcion: "Mayor velocidad y rendimiento."
     },
     {
       icono: "🧰",
-      titulo: "Mantenimiento preventivo",
-      descripcion: "Limpieza interna, cambio de pasta térmica y revisión general."
+      titulo: "Mantenimiento",
+      descripcion: "Limpieza interna y preventiva."
     },
     {
       icono: "📦",
-      titulo: "Instalación de programas",
-      descripcion: "Office, antivirus, diseño, contabilidad y más."
+      titulo: "Programas",
+      descripcion: "Office, Antivirus y software."
     },
     {
       icono: "🏠",
-      titulo: "Soporte a domicilio",
-      descripcion: "Atención en Bogotá rápida, segura y confiable."
+      titulo: "A Domicilio",
+      descripcion: "Atención rápida en Bogotá."
     }
   ];
 
   return (
-    <section className="py-20 bg-gray-100">
+    <section id="servicios" className="py-12 bg-gray-100">
 
-      <h2 className="text-4xl font-bold text-center mb-16">
-        Nuestros Servicios 🔧
+      <h2 className="text-3xl font-bold text-center mb-8">
+        Nuestros Servicios
       </h2>
 
-      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-10">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5">
 
         {servicios.map((servicio, index) => (
-          <div key={index} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition">
+          <div
+            key={index}
+            className="bg-white p-5 rounded-xl shadow hover:shadow-xl transition text-center"
+          >
+            <div className="text-4xl mb-2">
+              {servicio.icono}
+            </div>
 
-            <div className="text-5xl mb-4">{servicio.icono}</div>
-
-            <h3 className="text-xl font-bold mb-3">
+            <h3 className="font-bold mb-2">
               {servicio.titulo}
             </h3>
 
-            <p className="text-gray-600">
+            <p className="text-sm text-gray-600">
               {servicio.descripcion}
             </p>
-
           </div>
         ))}
 

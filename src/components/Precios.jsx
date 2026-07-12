@@ -68,7 +68,7 @@ function Precios() {
               ))}
             </ul>
 <a
-  href={`https://wa.me/573192274572?text=Hola,%20vi%20la%20página%20de%20Soporte%20Tecnológico%20Pro%20y%20quiero%20solicitar%20el%20servicio%20de:%20${plan.titulo}`}
+  href="https://wa.me/573192274572?text=Hola%20%F0%9F%91%8B%0A%0AGracias%20por%20comunicarte%20con%20Soporte%20Tecnol%C3%B3gico%20Pro.%0A%0A%C2%BFEn%20qu%C3%A9%20puedo%20ayudarte%3F%0A%0ACu%C3%A9ntame%20brevemente%20cu%C3%A1l%20es%20el%20inconveniente%20con%20tu%20equipo%20y%20con%20gusto%20te%20brindar%C3%A9%20la%20mejor%20soluci%C3%B3n."
   target="_blank"
   rel="noopener noreferrer"
   className={`block w-full py-3 rounded-xl font-semibold text-center ${
