@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+section {
+  padding: 80px 20px;
+}
+.precios {
+  text-align: center;
+  background: #f5f7fb;
+}
+
+.cards {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  width: 260px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h4 {
+  font-size: 28px;
+  color: #2563eb;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #25D366;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.destacado {
+  transform: scale(1.05);
+  border: 2px solid #2563eb;
+}
