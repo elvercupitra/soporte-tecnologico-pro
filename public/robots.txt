@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://elvercupitra.github.io/soporte-tecnologico-pro/sitemap.xml
